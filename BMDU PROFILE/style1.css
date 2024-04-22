@@ -1,0 +1,70 @@
+.containers {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sync1 {
+    width: 34%;
+}
+#sync2 {
+    width: 62%;
+    margin-top: 60px;
+}
+#sync2 .item:hover {
+    background-color: #045888;
+    color: white;
+    padding: 48px 0px;
+    border-radius: 5px;
+}
+.item:hover .icon svg path {
+    fill: white;
+    transition: all ease 0.3s;
+}
+
+#sync2 .row{
+    margin: 0 !important;
+}
+#sync2 .item {
+    /* width: calc(67.33% - 0px);  */
+    margin: 0; 
+    padding: 0; 
+    background:floralwhite;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box; 
+    padding: 50px 0px;
+    /* border: 0.1px solid gray; */
+}
+
+#sync2 .item.synced {
+    background-color: #045888;
+    color: white;
+}
+
+#sync2 .item .icon {
+    width: 30px;
+    height: 40px;
+    background: transparent;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+}
+
+#sync2 .item .text {
+    margin-top: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.3px;
+}
+
+#sync1 .item img {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
